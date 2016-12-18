@@ -1,2 +1,2 @@
-# MMS-Website
+# ManageMyServer.github.io
 Website for ManageMyServer
