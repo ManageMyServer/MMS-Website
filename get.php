@@ -1,4 +1,4 @@
-<?php
+
 <html>
    <head>
       <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
@@ -12,10 +12,11 @@
    </head>
    <body>
    
-      
+      <?php
       <!-- Start including Navigation -->
       include 'nav.php';
-      <!-- Navigation inclusion end -->
+      <!-- Navigation inclusion end -->      
+      ?>
       
       <div class="container">
          <h2 class="text-center">Get ManageMyServer</h2>
@@ -30,4 +31,3 @@
 <footer class="container"><hr>&copy; ManageMyServer<span class="pull-right"><a href="https://github.com/ManageMyServer">This site was made by ManageMyServer.</a></span></footer>
    </body>
 </html>
-?>
