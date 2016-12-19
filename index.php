@@ -1,3 +1,4 @@
+<?php
 <html>
    <head>
       <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
@@ -9,29 +10,10 @@
          p{font-size:13;};
       </style>
    </head>
-   <body>
-   
-      <nav class="navbar navbar-default navbar-static-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="/">ManageMyServer</a>
-            </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/get.html">Get MMS</a></li>
-               </ul>
-            </div><!-- /.navbar-collapse -->
-         </div><!-- /.container-fluid -->
-      </nav>
+   <body>   
+      <!-- Navigation is included -->
+      include 'nav.php';
+      <!-- Navigation End -->
       <div class="container">
         <div class="jumbotron">
             <h1>ManageMyServer</h1>
@@ -100,3 +82,4 @@
 <footer class="container"><hr>&copy; ManageMyServer<span class="pull-right"><a href="https://github.com/ManageMyServer">This site was made by ManageMyServer.</a></span></footer>
    </body>
 </html>
+?>
